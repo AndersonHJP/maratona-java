@@ -34,7 +34,6 @@ public class PatternMatcherTest05 {
         System.out.println("Posicoes encontradas");
         while (matcher.find()){
             System.out.print(matcher.start()+" "+matcher.group()+"\n");
-            System.out.println("123456");
         }
     }
 }
